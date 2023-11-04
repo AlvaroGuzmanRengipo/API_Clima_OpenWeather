@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>API-Clima</title>
+</head>
+<body>
+    <section class="container-clima">
+        <h1>COMO ESTA EL CLIMA</h1>
+        <div class="resultados">
+            <p>Ingrese su Ciudad y Pais</p>
+            <!-- <h5>Clima en Jujuy</h5>
+            <img src="" alt="">
+            <h2>16°C</h2>
+            <p>MAX: 20°C</p>
+            <p>MIN: 10°C</p> -->
+        </div>
+        <form action="" method="post" class="get-clima">
+            <input type="text" name="ciudad" id="ciudad" placeholder="Ingrese la ciudad...">
+            <select name="" id="pais">
+                <option disabled selected value="">Elija el pais</option>
+                <option value="AR">Argentina</option>
+                <option value="BO">Bolivia</option>
+                <option value="BR">Brasil</option>
+                <option value="CH">Chile</option>
+                <option value="PA">Paraguay</option>
+                <option value="UR">Uruguay</option>
+            </select>
+            <input type="submit" value="Ver Clima">
+        </form>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
